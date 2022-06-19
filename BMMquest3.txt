@@ -1,0 +1,24 @@
+Modifique a operação mostraDados do modelo ContaBancariaSim-
+plificada ( ) para que, caso o saldo esteja negativo, uma mensagem de
+
+alerta seja impressa. Dica: O saldo só poderá ser negativo se a conta for
+especial.
+
+operação mostraDados()
+        inicio
+        imprime "O nome do correntista é"
+        imprime nomeDoCorrentista;
+            se(contaÉEspecial e saldo<0)
+            imprime "sua conta é espcial e seu saldo esta negativo"
+            imprime "seu saldo é: "
+            imprime saldo
+        se(contaÉEspecial e saldo>=0)
+            imprime "sua conta  é especial"
+            imprime "seu saldo é: "
+            imprime saldo
+        senão
+            imprime "A conta é comum"
+            imprime "seu saldo é: "
+            imprime saldo
+    fim
+fim do modelo

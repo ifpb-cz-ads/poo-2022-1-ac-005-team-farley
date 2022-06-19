@@ -1,0 +1,53 @@
+Crie um modelo para representar um time de um esporte qualquer em um
+campeonato desse esporte. Que dados e operações esse modelo deve ter?
+
+
+modelo time
+inicio do modelo
+        dado nomeDoTime
+        dado qtdJogadores
+        dado qtdReservas
+        dado vitorias
+        dado derrtoas
+
+    operação definiNomeDotime( nome )
+    inicio 
+        nomeDoTime = nome
+    fim
+    operação mostraNome()
+    inicio
+        imprime("O nome do time é: "+ nomeDoTime)
+    fim
+    operação definiQtdJogadores( valor )
+    inicio
+        qtdJogadores = valor
+    fim
+    operação imprimeQtdJogadores()
+    inicio
+        imprime("A quantidade de jogadores é: "+ qtdJogadores)
+    fim
+    operação definiQtdReservas( valorrias )
+    inicio
+        qtdReservas = valor
+    fim
+    operação imprimeQtdReservas()
+    inicio
+        imprime("A quantidade de reservas é: "+ qtdReservas)
+    fim
+    operações vitorias()
+    inicio
+        vitorias++
+    fim
+    operação imprimeQtdVitorias()
+    inicio
+        imprime("O time vence "+ vitorias +" vezes")
+    fim
+    operação derrotas()
+    inicio
+        derrotas++
+    fim
+      operação imprimeQtdDerrotas()
+    inicio
+        imprime("O time perdeu "+ derrotas +" vezes")
+    fim
+fim do modelo

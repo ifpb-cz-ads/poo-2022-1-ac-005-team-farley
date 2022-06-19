@@ -1,0 +1,1 @@
+O primeiro método não possui modificadores de acesso e o segundo método não possui  um tipo de retorno, mesmo retornando um inteiro.

@@ -1,0 +1,1 @@
+O método main não possui um tipo de retorno e nem um modificador de acesso.
