@@ -1,0 +1,46 @@
+modelo lampada
+inicio do modelo
+        dado marcaDaLampada
+        dado potencia
+        dado preco
+        dado estadoDaLampada
+    operação definiPreco( valor )
+    inicio 
+        precoDaLampada = valor
+    fim
+    operação imprimePreco()
+    inicio
+        imprime(" O preco da lamapad é: "+preco)
+    fim
+    operação definePotencia( valor )
+    inicio 
+        potencia = valor 
+    fim
+    operação imprimePotencia()
+    inicio
+        imprime("A potencia da lampada é: "+potencia)
+    fim
+    operação defineMarca( marca )
+    inicio 
+        marcaDaLampada = marca 
+    fim
+    operação imprimeMaraca()
+    inicio
+        imprime("A lampada é da marca: "+ marcaDaLampada)
+    fim
+    operação acende()
+    inicio
+        estadoDaLampada = aceso
+    fim
+    operação apaga()
+    inicio
+        lampada = apagada
+    fim
+    operação mostraEstado()
+    inicio
+        se(estadoDaLampada == aceso)
+            imprime("lampada acesa");
+        senão
+            imprime("lamapda apagada");
+    fim
+fim do modelo
